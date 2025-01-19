@@ -1,12 +1,6 @@
 // Initialize Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyDnXlQu2Q1Tr1mqYZHEQs9csUKK7-QLMpQ",
-  authDomain: "joblinkmalawi-7aa99841.firebaseapp.com",
-  databaseURL: "https://joblinkmalawi-7aa99841-default-rtdb.firebaseio.com",
-  projectId: "joblinkmalawi-7aa99841",
-  storageBucket: "joblinkmalawi-7aa99841.firebasestorage.app",
-  messagingSenderId: "1020741137255",
-  appId: "1:1020741137255:web:a0354c16f268f07dd575c2"
+    
 };
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
