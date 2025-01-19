@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Vacancy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Upload Job Vacancy</h1>
+        <form id="vacancyForm">
+            <div class="form-group">
+                <label for="jobTitle">Job Title</label>
+                <input type="text" id="jobTitle" placeholder="e.g., Software Developer">
+            </div>
+
+            <div class="form-group">
+                <label for="companyName">Company Name</label>
+                <input type="text" id="companyName" placeholder="e.g., ABC Corp">
+            </div>
+
+            <div class="form-group">
+                <label for="jobLocation">Job Location</label>
+                <input type="text" id="jobLocation" placeholder="e.g., Lilongwe, Malawi">
+            </div>
+
+            <div class="form-group">
+                <label for="companyLogoUrl">Company Logo URL</label>
+                <input type="url" id="companyLogoUrl" placeholder="https://example.com/logo.png">
+            </div>
+
+            <div class="form-group">
+                <label for="jobDescription">Job Description</label>
+                <textarea id="jobDescription" rows="4" placeholder="Provide a detailed job description"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="salaryRange">Salary Range</label>
+                <input type="text" id="salaryRange" placeholder="$50,000-$60,000">
+            </div>
+
+            <div class="form-group">
+                <label for="jobType">Job Type</label>
+                <select id="jobType">
+                    <option value="" disabled selected>Select Job Type</option>
+                    <option value="full-time">Full-Time</option>
+                    <option value="part-time">Part-Time</option>
+                    <option value="internships">Internship</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="dueDate">Due Date</label>
+                <input type="date" id="dueDate">
+            </div>
+
+            <div class="form-group">
+                <label for="applicationMethod">Application Method</label>
+                <input type="text" id="applicationMethod" placeholder="e.g., Apply online at example.com">
+            </div>
+
+            <button type="submit" id="uploadJobButton">Upload Job</button>
+        </form>
+        <p id="status" class="status-message"></p>
+    </div>
+</body>
+</html>
