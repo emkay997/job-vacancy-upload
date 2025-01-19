@@ -29,7 +29,7 @@ document.getElementById("loginForm").addEventListener("submit", (e) => {
             // Successful Login
             const user = userCredential.user;
             alert(`Welcome, ${user.email}!`);
-            window.location.href = "vacancy-upload.html"; // Redirect to vacancy upload page
+            window.location.href = "jobupload.html"; // Redirect to vacancy upload page
         })
         .catch((error) => {
             // Handle Errors
